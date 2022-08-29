@@ -384,6 +384,10 @@ img {
 /*==================== Work ====================*/
 .work__container{
   padding-top:1rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  flex-wrap:nowrap;
 }
 
 .work__filters{
@@ -561,6 +565,7 @@ img {
   .work__container,
   .contact__container{
     grid-template-columns: repeat(2,1fr);
+   
   }
 }
 
