@@ -6,3 +6,5 @@
 - I set the domain and hosting and I deployed it with Netlify. 
 
 💙
+
+Link : https://www.ahmetloca.com/
