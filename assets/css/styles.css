@@ -15,9 +15,9 @@
     /*--first-color-second: hsl(344, 74%, 84%);*/
     --first-color-second:hsl(var(--hue-color),57%, 53%);
    /* --first-color-alt: hsl(var(--hue-color), 57%, 53%);*/
-    --first-color-alt: hsl(var(--hue-color), 57%, 53%); 
+    --first-color-alt: hsl(344, 74%, 84%); 
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);z
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
