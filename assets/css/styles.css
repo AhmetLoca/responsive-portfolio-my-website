@@ -13,14 +13,14 @@
     /* HSL color mode */
     /*--first-color: hsl(328.4, 50%, 70.2%);  --first-color: hsl(344, 100%, 85%); */
    
-    --first-color: hsl(29, 100%, 85%);
+    --first-color: hsl(200, 100%, 77%);
     /*--first-color-second: hsl(344, 74%, 84%);*/
     --first-color-second:hsl(var(--hue-color),57%, 53%);
    /* --first-color-alt: hsl(var(--hue-color), 57%, 53%);*/
     /*--first-color-alt: hsl(328.4, 50%, 70.2%);*/
 
    /* --first-color: hsl(344, 100%, 85%); */ 
-    --first-color: hsl(209, 32%, 85%);
+    --first-color: hsl(200, 100%, 91%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);z
     --text-color: hsl(var(--hue-color), 8%, 45%);
