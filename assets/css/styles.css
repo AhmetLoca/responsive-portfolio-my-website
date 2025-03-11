@@ -17,8 +17,7 @@
     /*--first-color-second: hsl(344, 74%, 84%);*/
     --first-color-second:hsl(var(--hue-color),57%, 53%);
    /* --first-color-alt: hsl(var(--hue-color), 57%, 53%);*/
-    /*--first-color-alt: hsl(328.4, 50%, 70.2%);*/
-
+    --first-color-alt: hsl(224, 89%, 15%);
    /* --first-color: hsl(344, 100%, 85%); */ 
      --first-color: hsl(196, 100%, 10%); 
    /* --first-color: hsl(224, 89%, 78%); */
