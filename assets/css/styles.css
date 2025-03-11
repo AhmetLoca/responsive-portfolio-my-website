@@ -20,7 +20,7 @@
     /*--first-color-alt: hsl(328.4, 50%, 70.2%);*/
 
    /* --first-color: hsl(344, 100%, 85%); */ 
-     --first-color: hsl(1, 100%, 75%); 
+     --first-color: hsl(60, 100%, 87%); 
    /* --first-color: hsl(224, 89%, 78%); */
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);z
