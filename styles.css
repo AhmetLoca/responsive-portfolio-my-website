@@ -98,7 +98,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
 
-  background: url("bg/smartus.png") no-repeat center center;
+  background: url("smartus.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
   position: relative;
@@ -195,7 +195,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 16px;
 
-  background: url("bg/walkers.png") no-repeat center center;
+  background: url("walkers.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -289,7 +289,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
 
-  background: url("bg/tailsense.png") no-repeat center center;
+  background: url("tailsense.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -382,7 +382,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
 
-  background: url("bg/kocalargrup.png") no-repeat center center;
+  background: url("kocalargrup.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -475,7 +475,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
 
-  background: url("bg/eczaci.png") no-repeat center center;
+  background: url("eczaci.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -568,7 +568,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
 
-  background: url("bg/sarjnoktasi.png") no-repeat center center;
+  background: url("sarjnoktasi.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -661,7 +661,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
 
-  background: url("bg/sarjed.png") no-repeat center center;
+  background: url("sarjed.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -754,7 +754,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
   border: 1px solid #f0f0f0;
-  background: url("bg/butad.png") no-repeat center center;
+  background: url("butad.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -846,7 +846,7 @@ nav a {
   height: 294px;
   flex-shrink: 0;
   border-radius: 18px;
-  background: url("bg/jotform.png") no-repeat center center;
+  background: url("jotform.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -939,7 +939,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
 
-  background: url("bg/popupsmart.png") no-repeat center center;
+  background: url("popupsmart.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -1032,7 +1032,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
   border: 1px solid #f0f0f0;
-  background: url("bg/ikas.png") no-repeat center center;
+  background: url("ikas.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
@@ -1125,7 +1125,7 @@ nav a {
   flex-shrink: 0;
   border-radius: 18px;
 
-  background: url("bg/disabank.png") no-repeat center center;
+  background: url("disabank.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
 }
