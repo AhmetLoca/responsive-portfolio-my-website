@@ -1,0 +1,1328 @@
+body {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: radial-gradient(
+      59.71% 58.13% at 0% 0%,
+      rgba(255, 255, 255, 0.2) 10.81%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    radial-gradient(
+      169.58% 75.26% at 123.85% 53.07%,
+      rgba(173, 191, 255, 0.18) 0%,
+      rgba(173, 191, 255, 0) 100%
+    ),
+    #fff;
+}
+
+header {
+  text-align: center;
+  margin: 100px 20px;
+}
+
+header h1 {
+  color: #222;
+  text-align: center;
+  font-family: "Instrument Serif";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.social-media {
+  margin: 50px;
+}
+
+nav a {
+  font-family: "manrope";
+  margin: 20px 30px;
+  text-decoration: none;
+  color: #333;
+}
+
+.about,
+.works {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 100px auto;
+}
+
+.recent-works {
+  font-family: "Instrument Serif";
+  text-align: center;
+  font-size: 24px;
+  margin: 18px auto;
+}
+
+.works {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.works h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.work-item {
+  width: 408px;
+  height: 308px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 1px solid #ede8e4;
+  background: #fff;
+}
+
+.work-item-in {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 24px;
+}
+
+/* smartus start */
+.work-item-in-smartus {
+  position: relative; /* Bu eklenmiş olmalı */
+  z-index: 1; /* Hover sırasında bu öğe üstte olsun */
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+
+  background: url("bg/smartus.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.work-item-in-smartus:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-smartus .arrow {
+  z-index: 2;
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-smartus:hover .arrow {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-smartus::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+}
+
+.work-item-in-smartus:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-smartus .title {
+  z-index: 2;
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.work-item-in-smartus .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-smartus:hover .title,
+.work-item-in-smartus:hover .subtitle {
+  opacity: 1;
+}
+/* smartus end */
+
+/* walkers start */
+.work-item-in-walkers {
+  position: relative; /* Bu eklenmiş olmalı */
+  z-index: 1; /* Hover sırasında bu öğe üstte olsun */
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 16px;
+
+  background: url("bg/walkers.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-walkers:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-walkers::after {
+  z-index: 2;
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-walkers:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-walkers::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 18px;
+}
+
+.work-item-in-walkers:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-walkers .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-walkers .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-walkers:hover .title,
+.work-item-in-walkers:hover .subtitle {
+  opacity: 1;
+}
+/* walkers end */
+
+/* tailsense start */
+.work-item-in-tailsense {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+
+  background: url("bg/tailsense.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-tailsense:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-tailsense::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-tailsense:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-tailsense::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-tailsense:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-tailsense .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-tailsense .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-tailsense:hover .title,
+.work-item-in-tailsense:hover .subtitle {
+  opacity: 1;
+}
+/* tailsense end */
+
+/* kocalargrup start */
+.work-item-in-kocalargrup {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+
+  background: url("bg/kocalargrup.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-kocalargrup:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-kocalargrup::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-kocalargrup:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-kocalargrup::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-kocalargrup:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-kocalargrup .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-kocalargrup .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-kocalargrup:hover .title,
+.work-item-in-kocalargrup:hover .subtitle {
+  opacity: 1;
+}
+/* kocalargrup end */
+
+/* Eczacı Çözüm Derneği start */
+.work-item-in-eczaci {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+
+  background: url("bg/eczaci.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-eczaci:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-eczaci::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-eczaci:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-eczaci::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-eczaci:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-eczaci .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-eczaci .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-eczaci:hover .title,
+.work-item-in-eczaci:hover .subtitle {
+  opacity: 1;
+}
+/* eczaci end */
+
+/* Şarj Noktasi start */
+.work-item-in-sarjnoktasi {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+
+  background: url("bg/sarjnoktasi.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-sarjnoktasi:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-sarjnoktasi::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-sarjnoktasi:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-sarjnoktasi::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-sarjnoktasi:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-sarjnoktasi .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-sarjnoktasi .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-sarjnoktasi:hover .title,
+.work-item-in-sarjnoktasi:hover .subtitle {
+  opacity: 1;
+}
+/* eczaci end */
+
+/* Şarjed start */
+.work-item-in-sarjed {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+
+  background: url("bg/sarjed.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-sarjed:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-sarjed::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-sarjed:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-sarjed::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-sarjed:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-sarjed .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-sarjed .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-sarjed:hover .title,
+.work-item-in-sarjed:hover .subtitle {
+  opacity: 1;
+}
+/* sarjed end */
+
+/* Bütad Akademi start */
+.work-item-in-butad {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  border: 1px solid #f0f0f0;
+  background: url("bg/butad.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-butad:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-butad::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-butad:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-butad::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-butad:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-butad .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-butad .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-butad:hover .title,
+.work-item-in-butad:hover .subtitle {
+  opacity: 1;
+}
+/* Bütad Akademi end */
+
+/* Jotform start */
+.work-item-in-jotform {
+  margin: 7px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: url("bg/jotform.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-jotform:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-jotform::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-jotform:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-jotform::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-jotform:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-jotform .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-jotform .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-jotform:hover .title,
+.work-item-in-jotform:hover .subtitle {
+  opacity: 1;
+}
+/* jotform end */
+
+/* Popupsmart start */
+.work-item-in-popupsmart {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+
+  background: url("bg/popupsmart.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-popupsmart:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-popupsmart::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-popupsmart:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-popupsmart::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-popupsmart:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-popupsmart .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-popupsmart .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-popupsmart:hover .title,
+.work-item-in-popupsmart:hover .subtitle {
+  opacity: 1;
+}
+/* Popupsmart end */
+
+/* İkas start */
+.work-item-in-ikas {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  border: 1px solid #f0f0f0;
+  background: url("bg/ikas.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-ikas:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-ikas::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-ikas:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-ikas::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-ikas:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-ikas .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-ikas .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-ikas:hover .title,
+.work-item-in-ikas:hover .subtitle {
+  opacity: 1;
+}
+/* İkas end */
+
+/* DisaBank start */
+.work-item-in-disabank {
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+
+  background: url("bg/disabank.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+}
+
+.work-item-in-disabank:hover {
+  transform: scale(1.02);
+}
+
+.work-item-in-disabank::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-disabank:hover::after {
+  opacity: 1;
+  top: calc(100% - 20px);
+}
+
+.work-item-in-disabank::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+  border-radius: 16px;
+}
+
+.work-item-in-disabank:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-disabank .title {
+  content: "Smartus";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-disabank .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-disabank:hover .title,
+.work-item-in-disabank:hover .subtitle {
+  opacity: 1;
+}
+/* DisaBank end */
+
+.work-item h3 {
+  margin: 20px;
+}
+
+.work-item p {
+  margin: 20px;
+  color: #666;
+}
+
+.work-item span {
+  margin: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px;
+  margin: 0 auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #333;
+}
+
+.footer-text span {
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+@media (max-width: 1024px) {
+  .works {
+    justify-content: center;
+  }
+
+  .work-item {
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/*smartus html start*/
+
+.smartus-container {
+  max-width: 600px;
+  margin: 100px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Instrument Serif";
+}
+
+.smartus-container-in {
+  width: 98%;
+  margin: 6px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #ede8e4;
+  background: #fff;
+}
+
+.smartus-container-in2 {
+  height: 130px;
+  width: 98%;
+  margin-bottom: 6px;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 16px;
+  border: 1px solid #ede8e4;
+  background: #fff;
+}
+
+.back-arrow {
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  text-decoration: none;
+  color: #333;
+}
+
+.smartus-content p {
+  color: #333;
+  font-size: 20px;
+}
+
+.smartus-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  gap: 112px;
+}
+
+/*smartus html end*/
+
+@media (max-width: 768px) {
+  .works {
+    justify-content: center;
+  }
+
+  .work-item {
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  .about {
+    text-align: center;
+  }
+}
