@@ -39,7 +39,7 @@ margin:20px;
 
 nav a {
   font-family: "manrope";
-  margin: 20px 30px;
+  margin: 10px 30px;
   text-decoration: none;
   color: #333;
 }
@@ -48,7 +48,7 @@ nav a {
 .works {
   font-size: 16px;
   max-width: 600px;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .recent-works {
