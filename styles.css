@@ -34,6 +34,24 @@ header h1 {
   margin:50px;
 }
 
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1440px;
+  height: 130px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.00) 12.32%,
+    rgba(255, 255, 255, 0.38) 24.36%,
+    #FFF 43.87%
+  );
+  z-index: 9999;
+  pointer-events: none; /* Altındaki öğelerin tıklanmasını engellemez */
+}
+
+
 .social-media {
 text-align:center;
 }
