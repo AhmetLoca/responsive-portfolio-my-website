@@ -33,7 +33,7 @@ header h1 {
 
 .social-media {
 text-align:center;
- margin: 50px 20px;
+ margin: 30px 10px;
 }
 
 nav a {
@@ -45,7 +45,7 @@ nav a {
 
 .about,
 .works {
-  text-align:center;
+  
   font-size: 16px;
   max-width: 400px;
   margin: 100px auto;
