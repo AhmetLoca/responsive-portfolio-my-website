@@ -1129,7 +1129,7 @@ nav a {
 .work-item-in-disabank {
   position: relative;
   margin: 6px;
-  width: calc(100% - 10px);
+  width: calc(100% - 14px);
   height: 294px;
   flex-shrink: 0;
   border-radius: 18px;
@@ -1140,7 +1140,7 @@ nav a {
 }
 
 .work-item-in-disabank:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .work-item-in-disabank::after {
