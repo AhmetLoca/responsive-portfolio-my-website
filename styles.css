@@ -376,7 +376,7 @@ nav a {
 
 /* kocalargrup start */
 .work-item-in-kocalargrup {
-    position: relative;
+  position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
@@ -470,6 +470,7 @@ nav a {
 
 /* Eczacı Çözüm Derneği start */
 .work-item-in-eczaci {
+  position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
@@ -563,6 +564,7 @@ nav a {
 
 /* Şarj Noktasi start */
 .work-item-in-sarjnoktasi {
+  position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
@@ -656,6 +658,7 @@ nav a {
 
 /* Şarjed start */
 .work-item-in-sarjed {
+  position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
@@ -749,6 +752,7 @@ nav a {
 
 /* Bütad Akademi start */
 .work-item-in-butad {
+  position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
@@ -842,6 +846,7 @@ nav a {
 
 /* Jotform start */
 .work-item-in-jotform {
+  position: relative;
   margin: 7px;
   width: calc(100% - 14px);
   height: 294px;
@@ -934,6 +939,7 @@ nav a {
 
 /* Popupsmart start */
 .work-item-in-popupsmart {
+  position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
@@ -1027,6 +1033,7 @@ nav a {
 
 /* İkas start */
 .work-item-in-ikas {
+  position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
@@ -1120,6 +1127,7 @@ nav a {
 
 /* DisaBank start */
 .work-item-in-disabank {
+  position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
