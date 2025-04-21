@@ -282,6 +282,7 @@ nav a {
 
 /* tailsense start */
 .work-item-in-tailsense {
+  position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
@@ -375,6 +376,7 @@ nav a {
 
 /* kocalargrup start */
 .work-item-in-kocalargrup {
+    position: relative;
   margin: 6px;
   width: calc(100% - 14px);
   height: 294px;
