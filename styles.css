@@ -1159,7 +1159,7 @@ nav a {
 
 .work-item-in-disabank:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-disabank::before {
