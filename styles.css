@@ -200,7 +200,7 @@ nav a {
 }
 
 .work-item-in-walkers:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 .work-item-in-walkers::after {
