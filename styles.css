@@ -1140,7 +1140,7 @@ nav a {
 }
 
 .work-item-in-disabank:hover {
-  transform: scale(1.04);
+  transform: scale(1.02);
 }
 
 .work-item-in-disabank::after {
