@@ -1039,7 +1039,7 @@ nav a {
   height: 294px;
   flex-shrink: 0;
   border-radius: 18px;
-  border: 1px solid #f0f0f0;
+ 
   background: url("/assets/img/ikas.png") no-repeat center center;
   background-size: cover;
   transition: transform 0.4s ease;
