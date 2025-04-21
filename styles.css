@@ -90,6 +90,102 @@ nav a {
 }
 
 /* smartus start */
+.work-item-in-demiroto {
+  position: relative; /* Bu eklenmiş olmalı */
+  z-index: 1; /* Hover sırasında bu öğe üstte olsun */
+  margin: 6px;
+  width: calc(100% - 14px);
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 18px;
+
+  background: url("/assets/img/demirOto.png") no-repeat center center;
+  background-size: cover;
+  transition: transform 0.4s ease;
+  overflow: hidden;
+}
+
+.work-item-in-demiroto:hover {
+  transform: scale(1.05);
+}
+
+.work-item-in-demiroto .arrow {
+  z-index: 2;
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  width: 60px;
+  height: 60px;
+  background: url("arrowrightupBlack.png") no-repeat center center;
+  background-size: contain;
+}
+
+.work-item-in-demiroto:hover .arrow {
+  opacity: 1;
+  top: calc(100% - 14px);
+}
+
+.work-item-in-demiroto::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(3px);
+}
+
+.work-item-in-demiroto:hover::before {
+  opacity: 1;
+}
+
+.work-item-in-demiroto .title {
+  z-index: 2;
+  content: "Demir Oto A.Ş.";
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.work-item-in-demiroto .subtitle {
+  content: "Product Design";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #333;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.work-item-in-demiroto:hover .title,
+.work-item-in-demiroto:hover .subtitle {
+  opacity: 1;
+}
+/* demiroto end */
+
+/* smartus start */
 .work-item-in-smartus {
   position: relative; /* Bu eklenmiş olmalı */
   z-index: 1; /* Hover sırasında bu öğe üstte olsun */
