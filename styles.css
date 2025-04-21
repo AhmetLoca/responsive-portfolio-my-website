@@ -45,10 +45,9 @@ nav a {
 
 .about,
 .works {
-  
   font-size: 16px;
   max-width: 600px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .recent-works {
