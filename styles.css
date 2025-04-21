@@ -105,7 +105,7 @@ nav a {
 }
 
 .work-item-in-smartus:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-smartus .arrow {
@@ -125,7 +125,7 @@ nav a {
 
 .work-item-in-smartus:hover .arrow {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-smartus::before {
@@ -200,7 +200,7 @@ nav a {
 }
 
 .work-item-in-walkers:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-walkers::after {
@@ -220,7 +220,7 @@ nav a {
 
 .work-item-in-walkers:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-walkers::before {
@@ -295,7 +295,7 @@ nav a {
 }
 
 .work-item-in-tailsense:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-tailsense::after {
@@ -314,7 +314,7 @@ nav a {
 
 .work-item-in-tailsense:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-tailsense::before {
@@ -389,7 +389,7 @@ nav a {
 }
 
 .work-item-in-kocalargrup:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-kocalargrup::after {
@@ -408,7 +408,7 @@ nav a {
 
 .work-item-in-kocalargrup:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-kocalargrup::before {
@@ -483,7 +483,7 @@ nav a {
 }
 
 .work-item-in-eczaci:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-eczaci::after {
@@ -502,7 +502,7 @@ nav a {
 
 .work-item-in-eczaci:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-eczaci::before {
@@ -577,7 +577,7 @@ nav a {
 }
 
 .work-item-in-sarjnoktasi:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-sarjnoktasi::after {
@@ -596,7 +596,7 @@ nav a {
 
 .work-item-in-sarjnoktasi:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-sarjnoktasi::before {
@@ -671,7 +671,7 @@ nav a {
 }
 
 .work-item-in-sarjed:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-sarjed::after {
@@ -690,7 +690,7 @@ nav a {
 
 .work-item-in-sarjed:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-sarjed::before {
@@ -765,7 +765,7 @@ nav a {
 }
 
 .work-item-in-butad:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-butad::after {
@@ -784,7 +784,7 @@ nav a {
 
 .work-item-in-butad:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-butad::before {
@@ -858,7 +858,7 @@ nav a {
 }
 
 .work-item-in-jotform:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-jotform::after {
@@ -877,7 +877,7 @@ nav a {
 
 .work-item-in-jotform:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-jotform::before {
@@ -952,7 +952,7 @@ nav a {
 }
 
 .work-item-in-popupsmart:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-popupsmart::after {
@@ -971,7 +971,7 @@ nav a {
 
 .work-item-in-popupsmart:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-popupsmart::before {
@@ -1046,7 +1046,7 @@ nav a {
 }
 
 .work-item-in-ikas:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .work-item-in-ikas::after {
@@ -1065,7 +1065,7 @@ nav a {
 
 .work-item-in-ikas:hover::after {
   opacity: 1;
-  top: calc(100% - 20px);
+  top: calc(100% - 14px);
 }
 
 .work-item-in-ikas::before {
