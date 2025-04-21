@@ -75,7 +75,8 @@ nav a {
   font-family: "Instrument Serif";
   text-align: center;
   font-size: 28px;
-  margin: 18px auto;
+    margin-top: 100px;
+  margin-bottom: 18px;
 }
 
 .works {
