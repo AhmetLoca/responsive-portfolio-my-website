@@ -1457,15 +1457,7 @@ footer {
     flex-direction: column;
   }
 
-  .social-media a {
-    display: flex;
-  flex-direction: column;  /* yazıları alt alta dizer */
-  align-items: center;     /* ortala */
-  gap: 6px;
-  padding: 1rem;
-  text-align: center;
-  }
-      .hide-on-mobile {
+    .hide-on-mobile {
     display: none;
   }
 }
