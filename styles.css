@@ -1458,7 +1458,11 @@ footer {
   }
 
   .social-media a {
-    width: 100%;
-    max-width: 300px;
+    display: flex;
+  flex-direction: column;  /* yazıları alt alta dizer */
+  align-items: center;     /* ortala */
+  gap: 0.75rem;
+  padding: 1rem;
+  text-align: center;
   }
 }
