@@ -1441,9 +1441,6 @@ footer {
 /*smartus html end*/
 
 @media (max-width: 768px) {
-   .hide-on-mobile {
-    display: none;
-  }
   .works {
     justify-content: center;
   }
@@ -1467,5 +1464,8 @@ footer {
   gap: 6px;
   padding: 1rem;
   text-align: center;
+  }
+      .hide-on-mobile {
+    display: none;
   }
 }
