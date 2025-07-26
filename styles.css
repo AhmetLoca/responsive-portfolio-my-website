@@ -301,11 +301,11 @@ nav a {
 .work-item-in-livechatai:hover .subtitle {
   opacity: 1;
 }
-/* smartus end */
+/* livechatai end */
 
 
 /* smartus start */
-.work-item-in-livechatai {
+.work-item-in-smartus {
   position: relative; /* Bu eklenmiş olmalı */
   z-index: 1; /* Hover sırasında bu öğe üstte olsun */
   margin: 6px;
@@ -320,11 +320,11 @@ nav a {
   overflow: hidden;
 }
 
-.work-item-in-livechatai:hover {
+.work-item-in-smartus:hover {
   transform: scale(1.05);
 }
 
-.work-item-in-livechatai .arrow {
+.work-item-in-smartus .arrow {
   z-index: 2;
   content: "";
   position: absolute;
@@ -339,12 +339,12 @@ nav a {
   background-size: contain;
 }
 
-.work-item-in-livechatai:hover .arrow {
+.work-item-in-smartus:hover .arrow {
   opacity: 1;
   top: calc(100% - 14px);
 }
 
-.work-item-in-livechatai::before {
+.work-item-in-smartus::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -362,11 +362,11 @@ nav a {
   backdrop-filter: blur(3px);
 }
 
-.work-item-in-livechatai:hover::before {
+.work-item-in-smartus:hover::before {
   opacity: 1;
 }
 
-.work-item-in-livechatai .title {
+.work-item-in-smartus .title {
   z-index: 2;
   content: "Smartus";
   position: absolute;
@@ -380,7 +380,7 @@ nav a {
   transition: opacity 0.3s ease;
 }
 
-.work-item-in-livechatai .subtitle {
+.work-item-in-smartus .subtitle {
   content: "Product Design";
   position: absolute;
   bottom: 20px;
@@ -394,11 +394,11 @@ nav a {
   z-index: 2;
 }
 
-.work-item-in-livechatai:hover .title,
-.work-item-in-livechatai:hover .subtitle {
+.work-item-in-smartus:hover .title,
+.work-item-in-smartus:hover .subtitle {
   opacity: 1;
 }
-/* livechatai end */
+/* smartus end */
 
 /* walkers start */
 .work-item-in-walkers {
